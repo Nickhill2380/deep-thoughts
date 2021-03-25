@@ -57,7 +57,7 @@ export const QUERY_USER = gql`
   }
 `;
 
-export const QUERY_ME = gql` 
+export const QUERY_ME = gql`
   {
     me {
       _id
@@ -84,9 +84,9 @@ export const QUERY_ME = gql`
   }
 `;
 
-export const QUERY_ME_BASIC = gql` 
+export const QUERY_ME_BASIC = gql`
   {
-    me{
+    me {
       _id
       username
       email
