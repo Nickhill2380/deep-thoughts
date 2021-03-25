@@ -25,7 +25,7 @@ const Profile = () => {
     <div>
       <div className="flex-row mb-3">
         <h2 className="bg-dark text-secondary p-3 display-inline-block">
-        Viewing {user.username}'s profile. 
+        Viewing {user.username}'s profile {user.friendCount}. 
         </h2>
       </div>
 
@@ -37,7 +37,7 @@ const Profile = () => {
           <FriendList
             username={user.username}
             friendCount={user.friendCount}
-            friend={user.friends}
+            friends={user.friends}
             />
         </div>
       </div>
